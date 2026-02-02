@@ -1,0 +1,87 @@
+{
+  "spider": "https://fastly.jsdelivr.net/gh/nt2020xp/01@main/jar/fan.txt;md5;9b3e327c02439fe4e1d6223beca9ed17",
+  "lives": [
+    {
+      "name": "migu",
+      "type": 0,
+      "url": "https://develop202.github.io/migu_video/interface.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "live",
+      "type": 0,
+      "url": "https://epg.pw/test_channels.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "ipv6",
+      "type": 0,
+      "url": "https://fastly.jsdelivr.net/gh/nt2020xp/01@main/tvboxtv.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
+  "sites": [
+    {
+      "key": "drpy_js_豆瓣",
+      "name": "搜索 | 豆瓣[js]",
+      "type": 3,
+      "api": "https://fastly.jsdelivr.net/gh/nt2020xp/01@main/lib/drpy2.min.js",
+      "ext": "https://fastly.jsdelivr.net/gh/nt2020xp/01@main/js/drpy.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "fyyy",
+      "name": "飞宇影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "分类url": "http://ntfeiyu.com/nt/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+      },
+      "jar": "https://fastly.jsdelivr.net/gh/nt2020xp/01@main/jar/sx.jar;md5;6186f490eadf878ba5de21a7fa29e594"
+    },
+    {
+      "key": "热播影视",
+      "name": "热播｜APP",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.rbotv.cn"
+      },
+      "jar": "https://fastly.jsdelivr.net/gh/nt2020xp/01@main/xiaosa/spider.jar;md5;ba0f40a91b0b2c3294dfaf60b823e217"
+    },
+    {
+      "key": "奇优",
+      "name": "影视 | ️奇优[直连]",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://fastly.jsdelivr.net/gh/nt2020xp/01@main/json/奇优.json",
+      "jar": "https://fastly.jsdelivr.net/gh/nt2020xp/01@main/jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"
+    }
+  ]
+}
